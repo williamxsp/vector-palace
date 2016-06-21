@@ -1,0 +1,1 @@
+var tinyMCEImageList = new Array(["http://4.bp.blogspot.com/-CW2iqymNPKg/TkCKPbHWJNI/AAAAAAAAAE0/TdQUyvBqyVU/s1600/heart_1281657043.gif", "http://www.enciclopedia.com.pt/images/music-notes.jpg"]);

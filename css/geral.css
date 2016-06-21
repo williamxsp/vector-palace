@@ -1,0 +1,137 @@
+/*GLOBAL*/
+*{margin:0;padding:0;border:none;list-style:none;}
+body{font-family:"Segoe UI",Tahoma,Geneva,sans-serif;font-size:9pt;}
+#geral{width:968px;margin:0 auto;}
+.indent{text-indent:-9999px;display:none;}
+.ajuste{clear:both;}
+a{color:#111; text-decoration: none;}
+a:hover{text-decoration: underline;}
+.hidden{display: none;}
+hr{background: #999; margin: 10px 0;}
+
+
+/*TOPO*/
+#topo{height:308px;}
+#topo h1{text-indent:-9999px;height:20px;}
+#logo{width:308px;height:288px;margin:0 auto;}
+
+/*MENU*/
+#menu{width:100%;height:55px;padding-right:4px;}
+#menu ul li{display:inline;}
+
+/*CONTEUDO*/
+#conteudo_topo{background:url(../img/conteudo_topo.png) no-repeat bottom center;width:100%;height:16px;}
+#conteudo_base{background:url(../img/conteudo_base.png) no-repeat top center;width:100%;height:16px;background-position:0px -2px;}
+#conteudo{background:url(../img/conteudo.png);padding:0 20px;min-height:150px;}
+
+/*NOTICIAS/FINANCEIRO*/
+th{cursor:pointer;padding-right:15px;}
+#noticias .noticia:hover .informacoes, #noticias .noticia:hover .conteudo,#noticias .noticia:hover .titulo,#financeiro tbody tr:hover td, tr:hover td{color:white;}
+
+/*TABLESORTER*/
+table th.header{background:url(../img/tabela.png) no-repeat right center;}
+table th.headerSortUp{background:url(../img/tabelaUp.png) no-repeat right center;}
+table th.headerSortDown{background:url(../img/tabelaDown.png) no-repeat right center;}
+/*PAGER*/
+#pager{width:100px; float:right; margin-right: 30px;}
+#pager input{width: 20px !important;  margin-left: 10px;}
+#pager select{width:70px;}
+
+
+/*NOTICIAS*/
+#noticias{float:left;width:460px;min-height:300px;}
+
+#noticias .noticia{padding:10px 0px 10px 25px;cursor:pointer;}
+#noticias .noticia .informacoes{font-size:9pt;}
+#noticias .noticia .titulo{font-size:11pt;}
+
+.btnSidebar{width:280px;}
+
+/*FINANCEIRO*/
+#financeiro{float:right;width:465px;}
+#financeiro img{float:left;}
+#financeiro h2{font-weight:bold;font-style:italic;}
+table{width:100%;font-size:10pt;}
+thead tr th{font-style:italic;font-weight:normal;font-size:12pt;text-align:right;}
+td{text-align:right;padding:3px 5px;cursor:pointer;}
+
+#financeiro .primeira{text-align:left;}
+#financeiro .linkFaturas{float:right;}
+
+/*TEMPO*/
+#tempo{width:460px;float:right;}
+#tempo h2{font-weight:bold;font-style:italic;padding-bottom:4px;}
+#tempo #widget{width:150px;float:left;margin-right:10px;}
+#tempo #voceSabia{margin-top:-6px;}
+#tempo #voceSabia h3{font-weight:normal;font-style:italic;font-size:14pt;}
+
+/*FOOTER*/
+#footer{clear:both;padding:2px 3px;}
+#footer #info{float:left;width:300px;}
+#footer #creditos{float:right;width:300px;text-align:right;}
+
+
+/*EDITOR*/
+#tituloNoticia{width:951px;background:url(../img/bgTituloNoticia.gif) no-repeat;padding:5px;height:37px;margin-bottom:10px;}
+
+/*FORMULÀRIOS*/
+form{width:560px; margin: 0 auto; padding-top:10px;}
+fieldset{width:100%; border:1px solid #cecece; padding: 10px; margin-bottom: 10px}
+label{display:block;float:left;margin:7px 10px 7px 0;padding:7px 0 0;text-align:right;width:100px;}
+form textarea{min-height:50px;min-width:380px;max-width:380px;height:auto; float:left;}
+input,textarea,select{border:1px solid #CCC;color:#333333;margin:7px 10px 7px 0;padding:7px;width:380px;}
+input:focus,textarea:focus,select:focus{background-color: #FFFDB0}
+select{width: 396px;}
+input[type="checkbox"]{padding:0; margin-top:0; width:30px;  height:70px; border:1px solid red;}
+.btnForm {width: 260px; float:right; padding-top: 10px; }
+
+/*PAGINA NOTICIAS*/
+#pgNoticias #todasNoticias{width: 600px; padding-right: 20px; float:left;}
+#pgNoticias #todasNoticias .noticia{width: 600px; margin-bottom: 50px;border-bottom: 1px solid #CCC; padding-bottom: 10px;}
+#pgNoticias #todasNoticias .noticia .informacoes{color:#555; font-size: 8pt;}
+#pgNoticias #todasNoticias .noticia .titulo a{font-size: 16pt; padding: 5px 0 0 0; display: block; width: 100%;}
+#pgNoticias #painelNoticias{float:left; padding-left:30px; width:250px;}
+#frmAdicionarNoticia{clear: both; width: 870px; overflow-x: hidden;}
+
+#frmAdicionarNoticia textarea{width:868px; min-height: 400px}
+#btnAdicionarNoticia{float:right; width: 150px;}
+
+#txtTitulo{width: 853px;}
+
+#status{float:left; padding:13px 10px 0 600px;}
+#status img{padding-right:10px;}
+
+/*************PAGINA DE CADASTRO***************/
+
+/*TEMAS*/
+#temas{float:right; width: 370px; padding-top: 20px;}
+#temasDisponiveis .tema {width: 120px; float:left; position: relative; margin:1px;}
+#temasDisponiveis .tema img{width: 120px; height: 120px; position: absolute;}
+#temasDisponiveis .tema .pb{z-index: 20;}
+#temasDisponiveis .tema .colorida{z-index: 1;}
+#temasDisponiveis .tema p{clear:both; padding-top: 130px;}
+
+/*MEU CADASTRO*/
+#meuCadastro {float: left; width: 520px; margin-right:10px;}
+#meuCadastro form{float:left; width: 100%; }
+#meuCadastro label.error{ float: right; width: 400px; text-align: left; color:#C41C20;}
+#meuCadastro input.error{border:1px solid #C41C20;}
+#meuCadastro .btn, #meuCadastro .btnReset{width: 120px;cursor: pointer; clear: both;}
+#labelReceberNoticias{margin: 0 10px 0 0; padding: 0px;}
+#divReceberNoticias{margin-top:5px; width: 100px;}
+
+
+/*SITUAÇÂO FINANCEIRA*/
+.emDia td{background: #E0FFB3;}
+.emDia:hover td{color:#418318 !important;}
+
+.alerta td{background: #FFF9CC;}
+.alerta:hover td{color:#6F6100 !important;}
+
+.atrasado td{background: #FFE9E8;}
+.atrasado:hover td{color:#9F0004 !important;}
+
+/*UI*/
+
+/* Corner radius */
+.ui-corner-all{-moz-border-radius:10px; -webkit-border-radius:10px;}

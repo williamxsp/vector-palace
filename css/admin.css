@@ -1,0 +1,25 @@
+body{background-position: center 40px !important;}
+
+/*BARRA ADMINISTRATIVA*/
+#barraAdmin{background-color:#111; padding:10px; color:white; height: 20px; line-height: 20px;}
+#conteudoBarraAdmin{width:960px; margin:0 auto;} 
+#nomeAdmin{width: 300px; float:left; text-align: left;}
+#menuAdmin{width: 600px; float:right; text-align: right;}
+#menuAdmin a{color:white; text-decoration: none; padding-left: 15px;}
+#menuAdmin a:hover{text-decoration: underline;}
+#sombra{background:url(../img/sombra.png); height: 3px; clear: both; width: 100%; position: absolute}
+
+/*GERENCIAR COBRANCAS*/
+input.btn{width: 150px; float:right; margin-right: 10px;}
+#condominos{width: 640px; margin:0 auto;}
+#condominos .condomino{float:left; width:180px; margin: 10px; padding: 5px; border:1px solid #EAE6E6; cursor:pointer;}
+#condominos .condomino .imgCondomino, #condominos .condomino .imgCondomino img{width:50px; float:left; }
+#condominos .condomino .imgCondomino {margin-right: 5px;}
+#condominos .condomino h3{color:#111; font-weight: normal; font-size: 10pt;}
+#condominos .condomino .infoUsuario{color:#2C2C2C;}
+#adicionarCondominos{float:right; width: 200px; margin-right: 55px;}
+/*SELECIONADO*/
+#condominos .selected{background-color: #EEE;}
+
+/*TABELA DATEPICKER*/
+.ui-datepicker table.ui-datepicker-calendar thead tr th{font-size: 9pt;}

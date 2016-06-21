@@ -1,0 +1,17 @@
+body{background: url(../img/bg_login.jpg ) center top repeat-x;}
+#login{ padding-top: 50px;}
+#login .erro{background: url(../img/usuario.png) 10px center no-repeat; text-indent: 25px;}
+label{display: none;}
+form{width: 380px; padding-top: 20px !important;}
+.botao{background: url('../img/bg_btn.png') no-repeat center top; width:70px;height: 35px; color:white; text-shadow: #000 1px 1px 0px; border: none; float:right; cursor: pointer;}
+.botao:hover{background: url('../img/bg_btn.png') no-repeat center -35px; }
+#login a{float:left; padding-top: 18px;}
+
+#esqueciMinhaSenha form{width: 480px;]}
+#esqueciMinhaSenha label{display: block; width: 50px;float:left;}
+#esqueciMinhaSenha input{display: block; float:left;}
+#esqueciMinhaSenha input[type="submit"]{width: 100px; float:right; margin-right:23px;}
+
+/*LembrarSenha*/
+input[type="checkbox"]{height: 10px;}
+#lembrarSenha{padding-top: 20px;width:200px; float:left; text-align:right;}

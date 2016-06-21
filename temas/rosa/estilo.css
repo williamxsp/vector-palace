@@ -1,0 +1,25 @@
+/*GLOBAL*/
+body{background:url(bg.jpg) repeat-x top center; }
+
+/*NOTICIAS/FINANCEIRO*/
+#financeiro, #noticias{ color:#a32c50; }
+
+/*NOTICIAS*/
+#noticias .noticia:hover, #financeiro tbody tr:hover{ background-color:#a32c50; }
+#noticias .noticia{ border-bottom:1px solid #EAE6E6; }
+#noticias .noticia .informacoes{color:#1a1a1a; }
+#noticias .noticia .titulo{color:#270605;}
+#pgNoticias #todasNoticias .noticia .titulo a{color:#a32c50;}
+
+/*GERENCIAMENTO DE NOTICIAS*/
+.odd{background-color:#FED8F4;}
+.odd:hover td, .even:hover td{color:#a32c50 !important;}
+
+/*FINANCEIRO*/
+#financeiro td{color:#2c2c2c;}
+#financeiro .linkFaturas{color:#a32c50;}
+
+
+/*TEMPO*/
+#tempo {color:#a32c50; }
+
